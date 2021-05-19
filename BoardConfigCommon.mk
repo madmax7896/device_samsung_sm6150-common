@@ -68,14 +68,10 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 BOARD_ROOT_EXTRA_FOLDERS := \
     carrier \
-    dqmdbg \
     efs \
-    keydata \
-    keyrefuge \
     metadata \
     optics \
     prism \
-    spu \
     omr
 
 # SELinux
