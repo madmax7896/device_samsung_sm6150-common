@@ -5,7 +5,7 @@
 #
 
 BOARD_VENDOR := samsung
-COMMON_PATH := device/samsung/sm8150-common
+COMMON_PATH := device/samsung/sm6150-common
 
 # Architecture
 TARGET_ARCH := arm64
@@ -28,7 +28,7 @@ TARGET_USES_64_BIT_BINDER := true
 USE_XML_AUDIO_POLICY_CONF := 1
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := msmnile
+TARGET_BOOTLOADER_BOARD_NAME := sm6150
 TARGET_NO_BOOTLOADER := true
 
 # Charger
